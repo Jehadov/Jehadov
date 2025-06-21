@@ -1,0 +1,419 @@
+{
+  "storeName": "Jehadov_Store",
+  "navHome": "Home",
+  "navAbout": "About",
+  "navCareers": "Careers",
+  "navOffers": "Offers",
+  "searchPlaceholder": "Search products...",
+  "goBack": "Back",
+  "viewDetails": "View Details",
+  "addToCart": "Add to Cart",
+  "addedToCart": "Added!",
+  "outOfStock": "Out of Stock",
+  "welcomeMessage": "Welcome to our Store!",
+  "allProducts": "All Products",
+  "shoppingCartTitle": "Your Shopping Cart",
+  "footerAbout": "About",
+  "footerCustomerService": "Customer Service",
+  "footerCareers": "Careers",
+  "footerCopyrightNotice": "Jehadov Store. All rights reserved.",
+    "home": {
+    "hero": {
+      "title": "Do You Like Our Products?",
+      "subtitle": "Tell us what item you really need, and we’ll try to bring it for you!",
+      "button": "Request Your Item"
+    },
+    "selectCategoryTitle": "Select a Category",
+    "browseAllButton": "Browse All Products",
+    "noCategoriesFound": "No categories found."
+  },
+  "loading": {
+    "categories": "Loading categories..."
+  },
+ "aboutUsPage": {
+    "perspective": {
+      "title": "Our Perspective",
+      "subtitle": "A deeper look!"
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "To be the preferred and most differentiated shopping destination, both locally and regionally."
+    },
+    "setsUsApart": {
+      "title": "What Sets Us Apart",
+      "item1": "We are local and convenient.",
+      "item2": "Attentive employees and a wide range of services.",
+      "item3": "High-quality products that exceed expectations.",
+      "item4": "Eco-friendly practices for community and customers.",
+      "item5": "One-stop solution for all shopping needs."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "intro": "To offer a valuable, multi-optional shopping experience through:",
+      "item1": "Premium, continually updated products.",
+      "item2": "Outstanding customer service.",
+      "item3": "Motivated and skilled team.",
+      "item4": "Eco-friendly operations.",
+      "item5": "Trusted partnerships with suppliers."
+    }
+  },
+  
+  "optional": "(Optional)",
+  "careersPage": {
+    "title": "Join Our Team",
+    "labels": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "position": "Position Applying For",
+      "resumeURL": "Link to Resume/CV",
+      "coverLetter": "Cover Letter"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "your.email@example.com",
+      "phone": "e.g., +962 7...",
+      "position": "e.g., Sales Manager, Web Developer",
+      "resumeURL": "https://your-resume-link.com",
+      "coverLetter": "Tell us why you are a good fit..."
+    },
+    "helpText": {
+        "resumeURL": "Please provide a shareable link (e.g., Google Drive, Dropbox, LinkedIn)."
+    },
+    "buttons": {
+      "submit": "Submit Application",
+      "submitting": "Submitting..."
+    },
+    "alerts": {
+      "success": "Application submitted successfully!",
+      "failure": "Failed to submit application."
+    }
+  
+},
+  "customerServicePage": {
+    "title": "Customer Service",
+    "contactUs": {
+      "title": "Contact Us",
+      "emailLabel": "Email:",
+      "phoneLabel": "Phone:",
+      "whatsappLabel": "WhatsApp:",
+      "whatsappLinkText": "Message us on WhatsApp"
+    },
+    "messageForm": {
+      "title": "Send Us a Message",
+      "placeholders": {
+        "yourName": "Your Name",
+        "yourEmail": "Your Email",
+        "yourMessage": "Your Message"
+      },
+      "buttons": {
+        "send": "Send Message",
+        "sending": "Sending..."
+      }
+    },
+    "alerts": {
+      "success": "Message sent successfully!",
+      "failure": "Failed to send message."
+    }
+  },
+    "requestItem": {
+    "title": "Request an Item",
+    "successMessage": "Thanks for your request! We'll get back to you soon.",
+    "placeholders": {
+      "itemName": "Item Name",
+      "description": "Why do you need it? (e.g., brand, size, specific features)",
+      "quantity": "Quantity",
+      "phone": "Your Phone Number"
+    },
+    "buttons": {
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "requestAnother": "Request Another Item"
+    },
+    "alert": {
+      "validationError": "Please fill in all required fields and specify a valid quantity.",
+      "failure": "Failed to submit request. Please try again."
+    }
+  },
+  "currency": {
+    "jd": "JD"
+  },
+  "cartPage": {
+    "title": "Your Shopping Cart",
+    "emptyCart": "Your cart is currently empty.",
+    "continueShopping": "Start Shopping",
+    "unitPriceLabel": "Unit Price:",
+    "selectedExtrasLabel": "Selected Extras:",
+    "quantityLabel": "Quantity:",
+    "itemTotalLabel": "Item Total:",
+    "buttons": {
+      "remove": "Remove",
+      "editExtras": "Edit Extras",
+      "addExtras": "Add Extras",
+      "saveExtras": "Save Extras",
+      "cancel": "Cancel",
+      "close": "Close",
+      "proceedToCheckout": "Proceed to Checkout"
+    },
+    "editExtrasFor": "Edit Extras for:",
+    "noExtrasAvailable": "No optional extras currently available in the store.",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "total": "Total"
+    }
+  },
+  
+  "checkoutCompletePage": {
+    "loadingOrderDetails": "Loading order details...",
+    "loadingSpinnerAlt": "Loading...",
+    "thankYouTitle": "Thank You for Your Order!",
+    "orderPlacedSuccess": "Your order has been placed successfully.",
+    "yourOrderIdIs": "Your Order ID is:",
+    "efawateercom": {
+      "heading": "Action Required: Complete Your Payment",
+      "instruction": "To finalize your order, please use the following bill number to pay through any eFAWATEERcom service (like your banking app or the eFAWATEERcom website):",
+      "postPaymentNote": "Your order will be prepared and shipped as soon as your payment is confirmed."
+    },
+    "cash": {
+      "heading": "Your Order is Being Prepared",
+      "instruction": "Please prepare the total amount in cash to pay the courier upon delivery. Thank you!"
+    },
+    "card": {
+      "heading": "Payment Successful",
+      "instruction": "Your payment has been processed. We are now preparing your order for shipment."
+    },
+    "buttons": {
+      "continueShopping": "Continue Shopping",
+      "placeNewOrder": "Place a New Order"
+    }
+  },
+  "checkoutPaymentPage": {
+    "title": "Payment Method",
+    "orderTotalLabel": "Order Total:",
+    "methods": {
+      "card": "Credit / Debit Card",
+      "efawateercom": "eFAWATEERcom",
+      "cash": "Cash on Delivery"
+    },
+    "cashInfo": "You will pay the courier in cash when your order arrives.",
+    "cardInfo": "A secure form for card details from your payment provider will be rendered here.",
+    "buttons": {
+      "backToShipping": "Back to Shipping",
+      "continueToReview": "Continue to Review"
+    }
+  },
+  "checkoutReviewPage": {
+    "title": "Review Your Order",
+    "orderSummary": {
+      "title": "Order Summary",
+      "total": "Total"
+    },
+    "shippingTo": "Shipping To",
+    "phoneLabel": "Phone:",
+    "paymentMethodLabel": "Payment Method",
+    "paymentMethods": {
+      "card": "Credit / Debit Card",
+      "efawateercom": "eFAWATEERcom",
+      "cash": "Cash on Delivery"
+    },
+    "buttons": {
+      "back": "Back",
+      "processing": "Processing...",
+      "placeOrderAndPay": "Place Order & Pay"
+    },
+    "alerts": {
+      "cardPaymentFailed": "Card payment failed.",
+      "efawateercomBillFailed": "Failed to create eFAWATEERcom bill.",
+      "placeOrderFailed": "Failed to place order.",
+      "unexpectedError": "An unexpected error occurred. Please try again."
+    }
+  },
+  "checkoutShippingPage": {
+    "title": "Shipping Information",
+    "labels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phoneNumber": "Phone Number",
+      "address": "Address (Street, Building, Apartment)",
+      "city": "City",
+      "country": "Country"
+    },
+    "placeholders": {
+      "firstName": "Enter first name",
+      "lastName": "Enter last name",
+      "phoneNumber": "07...",
+      "address": "e.g., University Street, Al-Amal Bldg, Apt 5",
+      "chooseCity": "Choose..."
+    },
+    "buttons": {
+      "continueToPayment": "Continue to Payment"
+    }
+  },
+  
+  "productCard": {
+    "newArrival": "New Arrival",
+    "specialOffer": "Special Offer",
+    "outOfStock": "Out of Stock",
+    "added": "Added!",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details"
+  },
+  "loadingText": "Loading...",
+  "productDetails": {
+    "notFound": "Product Not Found.",
+    "variantIssue": "Product variant details are currently unavailable. Please check product data.",
+    "lowStock": "Low Stock: Only {{count}} left!",
+    "outOfStock": "Out of Stock",
+    "selectOption": "Select Option:",
+    "optionOutOfStock": "(Out)",
+    "optionalExtras": "Optional Extras:",
+    "quantityLabel": "Quantity",
+    "buttons": {
+      "itemUpdated": "Item Updated!",
+      "updateItemInCart": "Update Item",
+      "addedToCart": "Added!",
+      "addToCart": "Add to Cart"
+    },
+    "optionOutOfStockFull": "This option is currently out of stock.",
+    "tabs": {
+      "description": "Description",
+      "details": "Details",
+      "reviews": "Reviews"
+    },
+    "noDescription": "No detailed description available.",
+    "details": {
+      "category": "Category:",
+      "manufacturedAt": "Manufactured At:",
+      "expiresOn": "Expires On:",
+      "selectedOption": "Selected Option:"
+    },
+    "noReviews": "No reviews yet for this product.",
+    "alerts": {
+      "selectOption": "Please select a valid product option.",
+      "outOfStock": "This option is out of stock.", 
+      "quantityMinOne": "Quantity must be at least 1.",
+      "notEnoughStock": "Only {{count}} available for this option."
+    }
+  },
+  "searchResults": {
+    "title": "Search Results",
+    "for": "for \"{{query}}\"",
+    "enterSearchTerm": "Please enter a search term to find products.",
+    "noProductsFound": "No products found matching \"{{query}}\". Try different keywords.",
+    "noProductsFound_raw": "No products found", 
+    "fetchError": "Failed to fetch search results. Please try again later.",
+    "noMatchesForQuery": "No products matched your search for \"{{query}}\".",
+    "viewAllProducts": "View All Products",
+    "promptSearch": "Please enter a search term in the bar above to find products."
+  },
+  "productsTable": {
+    "noProducts": "No products available.",
+    "previousOption": "Previous Option",
+    "nextOption": "Next Option",
+    "noImage": "No Image",
+    "variantType": "Type",
+    "priceLabel": "Price",
+    "qtyLabel": "Qty",
+    "perUnit": "({{unit}})",
+    "noVariants": "No variants defined.",
+    "buttons": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+   "productList": {
+    "categoryNames": {
+      "offers": "Special Offers",
+      "all": "All Products",
+      "ourProducts": "Our Products"
+    },
+    "searchPlaceholder": "Filter products by name or category...",
+    "noResultsFound": "No products found matching \"{{query}}\".",
+    "noProductsInCategory": "No products currently in this category.",
+    "buttons": {
+      "clearSearch": "Clear Search"
+    }
+  },  
+  "adminFooter": {
+    "copyright": "Jehadov Admin Panel. All rights reserved."
+  },
+    "buttons": { 
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "manageAddOns": {
+    "formTitle": {
+      "edit": "Edit Add-on",
+      "add": "Add New Add-on"
+    },
+    "labels": {
+      "nameEn": "Add-on Name (English)",
+      "nameAr": "Add-on Name (Arabic)",
+      "extraPrice": "Extra Price (JD)"
+    },
+    "placeholders": {
+      "nameEn": "e.g., Extra Cheese",
+      "nameAr": "مثال: جبنة إضافية"
+    },
+    "buttons": {
+      "update": "Update Add-on",
+      "add": "Add Add-on"
+    },
+    "listTitle": "Existing Add-ons",
+    "noAddOns": "No add-ons found.",
+    "confirmDelete": "Are you sure you want to delete this add-on?",
+    "alerts": {
+      "nameRequired": "Add-on name (at least in one language) cannot be empty.",
+      "priceNegative": "Extra price cannot be negative.",
+      "updateSuccess": "Add-on updated successfully!",
+      "addSuccess": "Add-on added successfully!",
+      "saveFailure": "Failed to save add-on.",
+      "deleteSuccessSingle": "Add-on deleted successfully!", 
+      "deleteFailureSingle": "Failed to delete add-on."    
+    }
+  },
+  
+  "manageCategories": {
+    "formTitle": {
+      "edit": "Edit Category",
+      "add": "Add New Category"
+    },
+    "labels": {
+      "nameEn": "Category Name (English)",
+      "nameAr": "Category Name (Arabic)",
+      "imageUrl": "Image URL (Optional)"
+    },
+    "placeholders": {
+      "nameEn": "e.g., Electronics",
+      "nameAr": "مثال: إلكترونيات",
+      "imageUrl": "https://example.com/image.png"
+    },
+    "buttons": {
+      "update": "Update Category", 
+      "add": "Add Category"
+    },
+    "listTitle": "Existing Categories",
+    "noCategories": "No categories found. Please add some!",
+    "noImage": "No image",
+    "tableHeaders": {
+      "image": "Image",
+      "name": "Name",
+      "actions": "Actions"
+    },
+    "confirmDelete": "Are you sure you want to delete this category?",
+    "alerts": {
+      "nameRequired": "Category name (in at least one language) is required.",
+      "fetchFailed": "Failed to fetch categories.",
+      "updateSuccess": "Category updated successfully!",
+      "addSuccess": "Category added successfully!",
+      "saveFailed": "Failed to save category.",
+      "deleteSuccessSingle": "Category deleted successfully!",
+      "deleteFailureSingle": "Failed to delete category."
+    }
+  }
+
+
+}

@@ -1,0 +1,653 @@
+{
+  "storeName": "متجر الاردني",
+  "navHome": "الرئيسية",
+  "navAbout": "من نحن",
+  "navCareers": "توظيف",
+  "navOffers": "العروض",
+  "searchPlaceholder": "ابحث عن منتجات...",
+  "goBack": "رجوع",
+  "goBackTooltip": "رجوع",
+  "viewDetails": "عرض التفاصيل",
+  "addToCart": "أضف إلى السلة",
+  "addedToCart": "تمت الإضافة!",
+  "outOfStock": "نفدت الكمية",
+  "welcomeMessage": "أهلاً بك في متجرنا!",
+  "allProducts": "جميع المنتجات",
+  "shoppingCartTitle": "سلة التسوق الخاصة بك",
+  "loadingText": "جاري التحميل...",
+  "currency": {
+    "jd": "دينار"
+  },
+  "optional": "(اختياري)",
+  "buttons": {
+    "saving": "جاري الحفظ...",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "add": "إضافة",
+    "update": "تحديث",
+    "close": "إغلاق",
+    "submit": "إرسال",
+    "submitting": "جاري الإرسال..."
+  },
+  "home": {
+    "hero": {
+      "title": "هل تعجبك منتجاتنا؟",
+      "subtitle": "أخبرنا عن المنتج الذي تحتاجه بشدة، وسنحاول توفيره لك!",
+      "button": "اطلب منتجك الخاص"
+    },
+    "selectCategoryTitle": "اختر فئة للتسوق",
+    "browseAllButton": "تصفح جميع المنتجات",
+    "noCategoriesFound": "لم يتم العثور على فئات."
+  },
+  "loading": {
+    "categories": "جاري تحميل الفئات..."
+  },
+  "footerAbout": "من نحن",
+  "footerCustomerService": "خدمة العملاء",
+  "footerCareers": "وظائف",
+  "footerCopyrightNotice": "متجر جهادوف جميع الحقوق محفوظة",
+  "adminFooter": {
+    "copyright": "لوحة تحكم جهادوف. جميع الحقوق محفوظة."
+  },
+  "aboutUsPage": {
+    "perspective": {
+      "title": "وجهة نظرنا",
+      "subtitle": "نظرة أعمق!"
+    },
+    "vision": {
+      "title": "رؤيتنا",
+      "text": "أن نكون وجهة التسوق المفضلة والأكثر تميزًا، محليًا وإقليميًا."
+    },
+    "setsUsApart": {
+      "title": "ما يميزنا",
+      "item1": "نحن محليون وقريبون منك.",
+      "item2": "موظفون يقظون ومجموعة واسعة من الخدمات.",
+      "item3": "منتجات عالية الجودة تفوق التوقعات.",
+      "item4": "ممارسات صديقة للبيئة لمجتمعنا وعملائنا.",
+      "item5": "حل شامل لجميع احتياجات التسوق."
+    },
+    "mission": {
+      "title": "مهمتنا",
+      "intro": "تقديم تجربة تسوق قيّمة ومتعددة الخيارات من خلال:",
+      "item1": "منتجات ممتازة ومحدثة باستمرار.",
+      "item2": "خدمة عملاء متميزة.",
+      "item3": "فريق عمل متحفز وماهر.",
+      "item4": "عمليات صديقة للبيئة.",
+      "item5": "شراكات موثوقة مع الموردين."
+    }
+  },
+  "careersPage": {
+    "title": "انضم إلى فريقنا",
+    "labels": {
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "position": "الوظيفة المتقدم إليها",
+      "resumeURL": "رابط السيرة الذاتية",
+      "coverLetter": "رسالة التغطية"
+    },
+    "placeholders": {
+      "fullName": "ادخل اسمك الكامل",
+      "email": "your.email@example.com",
+      "phone": "مثال: ...07 962+",
+      "position": "مثال: مدير مبيعات، مطور ويب",
+      "resumeURL": "https://your-resume-link.com",
+      "coverLetter": "أخبرنا لماذا تعتقد أنك مناسب..."
+    },
+    "helpText": {
+      "resumeURL": "يرجى تقديم رابط قابل للمشاركة (مثل جوجل درايف، دروب بوكس، لينكدإن)."
+    },
+    "buttons": {
+      "submit": "إرسال الطلب",
+      "submitting": "جاري الإرسال..."
+    },
+    "alerts": {
+      "success": "تم إرسال طلبك بنجاح!",
+      "failure": "فشل إرسال الطلب."
+    }
+  },
+  "customerServicePage": {
+    "title": "خدمة العملاء",
+    "contactUs": {
+      "title": "اتصل بنا",
+      "emailLabel": "البريد الإلكتروني:",
+      "phoneLabel": "الهاتف:",
+      "whatsappLabel": "واتساب:",
+      "whatsappLinkText": "راسلنا عبر واتساب"
+    },
+    "messageForm": {
+      "title": "أرسل لنا رسالة",
+      "placeholders": {
+        "yourName": "اسمك الكامل",
+        "yourEmail": "بريدك الإلكتروني",
+        "yourMessage": "رسالتك"
+      },
+      "buttons": {
+        "send": "إرسال الرسالة",
+        "sending": "جاري الإرسال..."
+      }
+    },
+    "alerts": {
+      "success": "تم إرسال الرسالة بنجاح!",
+      "failure": "فشل إرسال الرسالة."
+    }
+  },
+  "requestItemPage": {
+    "title": "اطلب منتجًا",
+    "successMessage": "شكرًا لطلبك! سوف نتصل بك قريبًا.",
+    "labels": {
+      "itemName": "اسم المنتج",
+      "description": "الوصف / لماذا تحتاجه؟",
+      "quantity": "الكمية",
+      "phone": "رقم هاتفك"
+    },
+    "placeholders": {
+      "itemName": "اسم المنتج",
+      "description": "لماذا تحتاجه؟ (مثال: العلامة التجارية، الحجم، ميزات محددة)",
+      "quantity": "الكمية",
+      "phone": "رقم هاتفك"
+    },
+    "buttons": {
+      "submit": "إرسال الطلب",
+      "submitting": "جاري الإرسال...",
+      "requestAnother": "طلب منتج آخر"
+    },
+    "alert": {
+      "validationError": "يرجى ملء جميع الحقول المطلوبة وتحديد كمية صالحة.",
+      "failure": "فشل إرسال الطلب. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "cartPage": {
+    "title": "سلة التسوق الخاصة بك",
+    "emptyCart": "سلة التسوق فارغة حاليًا.",
+    "continueShopping": "ابدأ التسوق",
+    "unitPriceLabel": "سعر الوحدة:",
+    "selectedExtrasLabel": "الإضافات المختارة:",
+    "quantityLabel": "الكمية:",
+    "itemTotalLabel": "مجموع الصنف:",
+    "buttons": {
+      "remove": "إزالة",
+      "editExtras": "تعديل الإضافات",
+      "addExtras": "إضافة إضافات",
+      "saveExtras": "حفظ الإضافات",
+      "cancel": "إلغاء",
+      "close": "إغلاق",
+      "proceedToCheckout": "الذهاب إلى الدفع"
+    },
+    "editExtrasFor": "تعديل الإضافات لـ:",
+    "noExtrasAvailable": "لا توجد إضافات اختيارية متوفرة حاليًا في المتجر.",
+    "summary": {
+      "title": "ملخص الطلب",
+      "subtotal": "المجموع الفرعي",
+      "total": "المجموع الكلي"
+    }
+  },
+  "checkoutShippingPage": {
+    "title": "معلومات الشحن",
+    "labels": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "phoneNumber": "رقم الهاتف",
+      "address": "العنوان (الشارع، المبنى، الشقة)",
+      "city": "المدينة",
+      "country": "الدولة"
+    },
+    "placeholders": {
+      "firstName": "ادخل الاسم الأول",
+      "lastName": "ادخل اسم العائلة",
+      "phoneNumber": "...07",
+      "address": "مثال: شارع الجامعة، بناية الأمل، شقة 5",
+      "chooseCity": "اختر..."
+    },
+    "buttons": {
+      "continueToPayment": "المتابعة إلى الدفع"
+    }
+  },
+  "checkoutPaymentPage": {
+    "title": "طريقة الدفع",
+    "orderTotalLabel": "المجموع الكلي للطلب:",
+    "methods": {
+      "card": "بطاقة الائتمان / الخصم المباشر",
+      "efawateercom": "إي فواتيركم",
+      "cash": "الدفع عند الإستلام"
+    },
+    "cashInfo": "ستقوم بدفع المبلغ لمندوب التوصيل نقدًا عند وصول طلبك.",
+    "cardInfo": "سيتم عرض نموذج آمن لتفاصيل البطاقة من مزود خدمة الدفع الخاص بك هنا.",
+    "buttons": {
+      "backToShipping": "العودة إلى الشحن",
+      "continueToReview": "المتابعة للمراجعة"
+    }
+  },
+  "checkoutReviewPage": {
+    "title": "مراجعة طلبك",
+    "orderSummary": {
+      "title": "ملخص الطلب",
+      "total": "المجموع الكلي"
+    },
+    "shippingTo": "الشحن إلى",
+    "phoneLabel": "الهاتف:",
+    "paymentMethodLabel": "طريقة الدفع",
+    "paymentMethods": {
+      "card": "بطاقة الائتمان / الخصم المباشر",
+      "efawateercom": "إي فواتيركم",
+      "cash": "الدفع عند الإستلام"
+    },
+    "buttons": {
+      "back": "رجوع",
+      "processing": "جاري المعالجة...",
+      "placeOrderAndPay": "إتمام الطلب والدفع"
+    },
+    "alerts": {
+      "cardPaymentFailed": "فشل الدفع بالبطاقة.",
+      "efawateercomBillFailed": "فشل إنشاء فاتورة إي فواتيركم.",
+      "placeOrderFailed": "فشل إرسال الطلب.",
+      "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "checkoutCompletePage": {
+    "loadingOrderDetails": "جاري تحميل تفاصيل الطلب...",
+    "loadingSpinnerAlt": "جاري التحميل...",
+    "thankYouTitle": "شكراً لطلبك!",
+    "orderPlacedSuccess": "لقد تم إرسال طلبك بنجاح.",
+    "yourOrderIdIs": "رقم طلبك هو:",
+    "efawateercom": {
+      "heading": "إجراء مطلوب: أكمل عملية الدفع",
+      "instruction": "لإتمام طلبك، يرجى استخدام رقم الفاتورة التالي للدفع عبر أي من خدمات إي فواتيركم (مثل تطبيقك البنكي أو بوابة إي فواتيركم الإلكترونية أو أجهزة الصراف الآلي):",
+      "postPaymentNote": "سيتم تجهيز طلبك وشحنه بمجرد تأكيد عملية الدفع."
+    },
+    "cash": {
+      "heading": "طلبك قيد التجهيز",
+      "instruction": "يرجى تحضير المبلغ الإجمالي نقدًا لدفعه لمندوب التوصيل عند الاستلام. شكراً لك!"
+    },
+    "card": {
+      "heading": "تم الدفع بنجاح",
+      "instruction": "لقد تمت معالجة دفعتك بنجاح. نحن الآن نقوم بتجهيز طلبك للشحن."
+    },
+    "buttons": {
+      "continueShopping": "متابعة التسوق",
+      "placeNewOrder": "تقديم طلب جديد"
+    }
+  },
+  "productList": {
+    "categoryNames": {
+      "all": "جميع المنتجات",
+      "offers": "العروض الخاصة",
+      "unknown": "فئة: {{id}}",
+      "error": "خطأ في تفاصيل الفئة"
+    },
+    "fetchError": "فشل تحميل المنتجات.",
+    "searchPlaceholder": "تصفية المنتجات حسب الاسم أو الفئة...",
+    "noResultsFound": "لم يتم العثور على منتجات مطابقة لـ \"{{query}}\".",
+    "noProductsInCategory": "لا توجد منتجات حاليًا في هذه الفئة/العرض.",
+    "buttons": {
+      "clearSearch": "مسح البحث",
+      "viewAllProducts": "عرض جميع المنتجات"
+    }
+  },
+  "productCard": {
+    "newArrival": "وصل حديثاً",
+    "specialOffer": "عرض خاص",
+    "outOfStock": "نفدت الكمية",
+    "added": "تمت الإضافة!",
+    "addToCart": "أضف إلى السلة",
+    "viewDetails": "عرض التفاصيل",
+    "perUnit": "لكل {{unit}}"
+  },
+  "productDetails": {
+    "notFound": "المنتج غير موجود.",
+    "variantIssue": "تفاصيل خيارات المنتج غير متوفرة حالياً.",
+    "variantIssueCritical": "خطأ فادح: تعذر تحميل تفاصيل الخيارات. يرجى الاتصال بالدعم.",
+    "lowStock": "كمية محدودة: متبقي {{count}} فقط!",
+    "outOfStock": "نفدت الكمية",
+    "selectOption": "اختر الخيار:",
+    "optionOutOfStock": "(نفد)",
+    "optionalExtras": "إضافات اختيارية:",
+    "quantityLabel": "الكمية",
+    "buttons": {
+      "itemUpdated": "تم تحديث المنتج!",
+      "updateItemInCart": "تحديث المنتج",
+      "addedToCart": "تمت الإضافة!",
+      "addToCart": "أضف إلى السلة"
+    },
+    "optionOutOfStockFull": "هذا الخيار غير متوفر حالياً (نفدت الكمية).",
+    "tabs": {
+      "description": "الوصف",
+      "details": "التفاصيل",
+      "reviews": "التقييمات"
+    },
+    "noDescription": "لا يوجد وصف تفصيلي متوفر.",
+    "details": {
+      "category": "الفئة:",
+      "noCategory": "غير مصنف",
+      "manufacturedAt": "تاريخ الصنع:",
+      "expiresOn": "تاريخ الإنتهاء:",
+      "selectedOption": "الخيار المحدد:",
+      "selectedOptionPrefix": "الخيار المحدد لـ {{groupName}}:"
+    },
+    "noReviews": "لا توجد تقييمات لهذا المنتج حتى الآن.",
+    "alerts": {
+      "selectOption": "يرجى اختيار خيار صالح للمنتج.",
+      "outOfStock": "هذا الخيار غير متوفر حالياً.",
+      "quantityMinOne": "يجب أن تكون الكمية 1 على الأقل.",
+      "notEnoughStock": "متوفر {{count}} فقط لهذا الخيار."
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم الرئيسية",
+    "summary": {
+      "totalProducts": "إجمالي المنتجات",
+      "totalCategories": "إجمالي الفئات",
+      "totalAddOns": "إجمالي الإضافات",
+      "totalUsers": "إجمالي المستخدمين"
+    },
+    "viewDetails": "عرض التفاصيل",
+    "quickActionsTitle": "إجراءات سريعة",
+    "actions": {
+      "manageProducts": "إدارة المنتجات",
+      "addNewProduct": "إضافة منتج جديد",
+      "manageCategories": "إدارة الفئات",
+      "manageAddOns": "إدارة الإضافات",
+      "manageOffers": "إدارة العروض"
+    },
+    "recentOrdersTitle": "الطلبات الأخيرة",
+    "recentOrdersPlaceholder": "سيتم عرض الطلبات الأخيرة هنا...",
+    "siteActivityTitle": "نشاط الموقع",
+    "siteActivityPlaceholder": "رسوم بيانية أو إحصائيات النشاط هنا..."
+  },
+  "manageAddOns": {
+    "title": "إدارة الإضافات الاختيارية",
+    "formTitle": {
+      "edit": "تعديل الإضافة",
+      "add": "إضافة جديدة"
+    },
+    "labels": {
+      "nameEn": "اسم الإضافة (الإنجليزية)",
+      "nameAr": "اسم الإضافة (العربية)",
+      "extraPrice": "السعر الإضافي (دينار أردني)"
+    },
+    "placeholders": {
+      "nameEn": "مثال: جبنة إضافية",
+      "nameAr": "مثال: جبنة إضافية"
+    },
+    "buttons": {
+      "update": "تحديث الإضافة",
+      "add": "إضافة"
+    },
+    "listTitle": "الإضافات الحالية",
+    "noAddOns": "لم يتم العثور على إضافات. انقر فوق 'إضافة جديدة' للبدء.",
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذه الإضافة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "alerts": {
+      "nameRequired": "اسم الإضافة (بلغة واحدة على الأقل) لا يمكن أن يكون فارغًا.",
+      "priceNegative": "السعر الإضافي لا يمكن أن يكون قيمة سالبة.",
+      "updateSuccess": "تم تحديث الإضافة بنجاح!",
+      "addSuccess": "تمت إضافة الإضافة بنجاح!",
+      "saveFailure": "فشل حفظ الإضافة. يرجى المحاولة مرة أخرى.",
+      "deleteSuccessSingle": "تم حذف الإضافة بنجاح!",
+      "deleteFailureSingle": "فشل حذف الإضافة. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "manageCategories": {
+    "title": "إدارة الفئات",
+    "formTitle": {
+      "edit": "تعديل الفئة",
+      "add": "إضافة فئة جديدة"
+    },
+    "labels": {
+      "nameEn": "اسم الفئة (الإنجليزية)",
+      "nameAr": "اسم الفئة (العربية)",
+      "imageUrl": "رابط الصورة (اختياري)"
+    },
+    "placeholders": {
+      "nameEn": "مثال: إلكترونيات",
+      "nameAr": "مثال: إلكترونيات",
+      "imageUrl": "https://example.com/image.png"
+    },
+    "buttons": {
+      "update": "تحديث الفئة",
+      "add": "إضافة الفئة"
+    },
+    "listTitle": "الفئات الحالية",
+    "noCategories": "لم يتم العثور على فئات. يرجى إضافة البعض!",
+    "noImage": "لا توجد صورة",
+    "tableHeaders": {
+      "image": "الصورة",
+      "name": "الاسم",
+      "actions": "الإجراءات"
+    },
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذه الفئة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "alerts": {
+      "nameRequired": "اسم الفئة (بلغة واحدة على الأقل) مطلوب.",
+      "fetchFailed": "فشل تحميل الفئات.",
+      "updateSuccess": "تم تحديث الفئة بنجاح!",
+      "addSuccess": "تمت إضافة الفئة بنجاح!",
+      "saveFailed": "فشل حفظ الفئة. يرجى المحاولة مرة أخرى.",
+      "deleteSuccessSingle": "تم حذف الفئة بنجاح!",
+      "deleteFailureSingle": "فشل حذف الفئة. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "productForm": {
+    "title": {
+      "edit": "تعديل المنتج",
+      "create": "إنشاء منتج جديد"
+    },
+    "sections": {
+      "productName": "اسم المنتج",
+      "categories": "الفئات",
+      "descriptions": "الأوصاف",
+      "dates": "التواريخ",
+      "optionalAddOns": "إعداد الإضافات الاختيارية"
+    },
+    "labels": {
+      "name_en": "الاسم (الإنجليزية)",
+      "name_ar": "الاسم (العربية)",
+      "shortDescription_en": "وصف قصير (الإنجليزية)",
+      "shortDescription_ar": "وصف قصير (العربية)",
+      "longDescription_en": "وصف طويل (الإنجليزية)",
+      "longDescription_ar": "وصف طويل (العربية)",
+      "manufacturedAt": "تاريخ الصنع",
+      "expiration": "تاريخ الانتهاء",
+      "isOffer": "تحديد كعرض خاص"
+    },
+    "placeholders": {
+      "name_en": "أدخل اسم المنتج بالإنجليزية",
+      "name_ar": "أدخل اسم المنتج بالعربية"
+    },
+    "helpText": {
+      "optionalAddOns": "اختر أي الإضافات المتاحة عالميًا يمكن للعملاء اختيارها لهذا المنتج المحدد."
+    },
+    "noAddOnsAvailable": "لا توجد إضافات معرفة في المتجر للاختيار من بينها.",
+    "extraPrice": "سعر إضافي",
+    "validation": {
+      "fillRequiredFields": "يرجى التأكد من ملء اسم المنتج (الإنجليزية)، واسم نوع الخيار (الإنجليزية)، وقيمة الخيار (الإنجليزية)."
+    },
+    "buttons": {
+      "saving": "جاري الحفظ...",
+      "update": "تحديث المنتج",
+      "add": "إضافة المنتج"
+    }
+  },
+  "managerVariant": {
+    "title": "إدارة أنواع الخيارات وخياراتها",
+    "confirmDeleteVariant": "هل أنت متأكد من رغبتك في حذف نوع الخيار هذا وجميع خياراته؟ لا يمكن التراجع عن هذا الإجراء.",
+    "formTitle": {
+      "edit": "تعديل \"{{name}}\"",
+      "add": "إضافة نوع خيار جديد"
+    },
+    "newVariantType": "نوع خيار جديد",
+    "validation": {
+      "fillRequiredEnFields": "اسم نوع الخيار (الإنجليزية) وقيمة خيار واحدة على الأقل (الإنجليزية) مطلوبة.",
+      "nameExists": "نوع خيار بالاسم الإنجليزي \"{{name}}\" موجود بالفعل. يرجى استخدام اسم فريد.",
+      "minOneOption": "يجب أن يحتوي كل نوع خيار على خيار واحد على الأقل."
+    },
+    "labels": {
+      "variantTypeNameEn": "اسم نوع الخيار (الإنجليزية)",
+      "variantTypeNameAr": "اسم نوع الخيار (العربية)",
+      "optionsFor": "خيارات لـ \"{{variantName}}\""
+    },
+    "placeholders": {
+      "variantTypeNameEn": "مثال: الحجم",
+      "variantTypeNameAr": "مثال: الحجم",
+      "optionValueEn": "مثال: صغير",
+      "optionValueAr": "مثال: صغير",
+      "price": "السعر",
+      "originalPrice": "السعر الأصلي",
+      "qty": "الكمية",
+      "unitEn": "قطعة",
+      "unitAr": "قطعة"
+    },
+    "tableHeaders": {
+      "valueEn": "القيمة (En)",
+      "valueAr": "القيمة (Ar)",
+      "price": "السعر (دينار)",
+      "originalPrice": "السعر الأصلي (دينار)",
+      "qty": "الكمية",
+      "imgUrl": "رابط الصورة",
+      "unitEn": "الوحدة (En)",
+      "unitAr": "الوحدة (Ar)"
+    },
+    "buttons": {
+      "addVariantType": "إضافة نوع خيار",
+      "addOptionValue": "إضافة قيمة خيار",
+      "deleteOption": "حذف الخيار",
+      "deleteVariantType": "حذف نوع الخيار",
+      "cancel": "إلغاء",
+      "editVariantType": "تعديل نوع الخيار",
+      "saveVariantType": "حفظ نوع الخيار"
+    },
+    "display": {
+      "optionsLabel": "الخيارات:",
+      "perUnit": "لكل {{unit}}"
+    },
+    "noVariantsYet": "لم يتم إنشاء أنواع خيارات بعد. انقر فوق \"إضافة نوع خيار\" لتعريف الخيارات."
+  },
+  "manageOffers": {
+    "title": "إدارة العروض",
+    "addNewOffer": "إضافة عرض جديد",
+    "noOffers": "لا توجد عروض حالياً. انقر فوق 'إضافة عرض جديد' للبدء.",
+    "tableHeaders": {
+      "title": "العنوان",
+      "type": "النوع",
+      "status": "الحالة",
+      "validity": "الصلاحية",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "expired": "منتهي الصلاحية",
+      "upcoming": "قادم"
+    },
+    "to": "إلى",
+    "offerOnProduct": "عرض على المنتج",
+    "confirmDelete": "هل أنت متأكد من رغبتك في حذف هذا العرض؟",
+    "bogoSyntax": {
+      "buy": "اشترِ",
+      "get": "واحصل على",
+      "at": "بـ"
+    },
+    "alerts": {
+      "fetchFailed": "فشل تحميل العروض.",
+      "deleteSuccess": "تم حذف العرض بنجاح!",
+      "deleteFailed": "فشل حذف العرض."
+    }
+  },
+  "offerForm": {
+    "title": {
+      "edit": "تعديل العرض",
+      "create": "إنشاء عرض جديد"
+    },
+    "defaults": {
+      "titleForProduct": "عرض لـ {{productName}}",
+      "titleForProductAr": "عرض لـ {{productName}}"
+    },
+    "sections": {
+      "offerDetails": "تفاصيل العرض",
+      "discountConfig": "إعدادات الخصم",
+      "bogoDetails": "تفاصيل اشترِ X واحصل على Y",
+      "couponDetails": "تفاصيل الكوبون",
+      "targetProducts": "المنتجات المستهدفة",
+      "durationAndStatus": "مدة العرض وحالته"
+    },
+    "labels": {
+      "titleEn": "العنوان (الإنجليزية)",
+      "titleAr": "العنوان (العربية)",
+      "descriptionEn": "الوصف (الإنجليزية)",
+      "descriptionAr": "الوصف (العربية)",
+      "offerType": "نوع العرض",
+      "discountPercentage": "الخصم (%)",
+      "discountAmount": "مبلغ الخصم (دينار)",
+      "discountNature": "نوع خصم الكوبون",
+      "bogoBuyProduct": "المنتج للشراء",
+      "bogoBuyQty": "الكمية للشراء",
+      "bogoGetProduct": "المنتج للحصول عليه",
+      "bogoGetQty": "الكمية للحصول عليها",
+      "bogoGetType": "الخصم على العنصر 'الحصول عليه'",
+      "couponCode": "رمز الكوبون",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "isActive": "العرض نشط"
+    },
+    "types": {
+      "percentage": "خصم مئوي",
+      "fixed": "مبلغ ثابت",
+      "bogo": "اشترِ X واحصل على Y (BOGO)",
+      "coupon": "خصم برمز كوبون",
+      "bogoFree": "مجاني",
+      "bogoFreeShort": "مجاناً",
+      "bogoPercentage": "خصم مئوي على العنصر 'الحصول عليه'",
+      "bogoFixed": "خصم ثابت على العنصر 'الحصول عليه'"
+    },
+    "placeholders": {
+      "selectProduct": "اختر المنتج...",
+      "couponCode": "مثال: SUMMER20"
+    },
+    "helpText": {
+      "targetProductsCoupon": "اختر المنتجات التي ينطبق عليها هذا الكوبون. اتركه فارغًا لكوبون على مستوى الموقع (ينطبق على جميع المنتجات).",
+      "targetProductsDiscount": "اختر المنتجات التي ينطبق عليها هذا الخصم.",
+      "couponTargetInfoRemoved": "سيتم تطبيق هذا الكوبون على مستوى الموقع أو بناءً على شروط محددة في مكان آخر."
+    },
+    "validation": {
+      "selectOneProductForDiscount": "يرجى اختيار منتج واحد على الأقل لهذا النوع من الخصم."
+    },
+    "allProducts": "جميع المنتجات",
+    "alerts": {
+      "fetchProductsFailed": "فشل تحميل المنتجات للاختيار.",
+      "offerNotFound": "العرض غير موجود.",
+      "fetchOfferFailed": "فشل تحميل العرض للتعديل.",
+      "validationFailed": "يرجى ملء جميع الحقول المطلوبة بشكل صحيح. تحقق من قيم الخصم والتواريخ واختيارات المنتجات وتفاصيل BOGO/الكوبون.",
+      "updateSuccess": "تم تحديث العرض بنجاح!",
+      "addSuccess": "تم إنشاء العرض بنجاح!",
+      "saveFailed": "فشل حفظ العرض."
+    },
+    "offSuffix": "خصم",
+    "onProductsLabel": "على",
+    "couponCodeLabel": "الكود",
+    "buttons": {
+      "editProduct": "تعديل المنتج",
+      "updateOffer": "تحديث العرض",
+      "createOffer": "إنشاء العرض"
+    }
+  },
+  "offersPage": {
+    "title": "العروض الخاصة والعروض الترويجية",
+    "subtitle": "اطلع على أحدث عروضنا ووفر!",
+    "noActiveOffers": "لا توجد عروض نشطة متاحة في الوقت الحالي. تحقق مرة أخرى قريبا!",
+    "browseProducts": "تصفح جميع المنتجات",
+    "validity": "صالح",
+    "viewOfferButton": "مشاهدة العرض",
+    "unknownProduct": "منتج غير معروف",
+    "generalOffer": "عرض خاص",
+    "details": {
+      "percentage": "{{value}}% خصم على: {{products}}",
+      "fixed": "{{value}} {{currency}} خصم على: {{products}}",
+      "coupon": "الكود: {{code}} - {{value}}{{type}} خصم على: {{products}}",
+      "bogo": {
+        "base": "اشترِ {{buyQty}} {{buyName}} واحصل على {{getQty}} {{getName}}"
+      }
+    },
+    "alerts": {
+      "fetchFailed": "فشل تحميل العروض. يرجى المحاولة مرة أخرى."
+    }
+  }
+}
