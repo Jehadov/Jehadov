@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { db } from '../../firebase';
 import { doc, getDoc, setDoc, deleteDoc } from 'firebase/firestore';
 
-const VIDEO_DOC_ID = 'hero_video'; // fixed doc ID to store single video URL
+const VIDEO_DOC_ID = 'hero_video';
 
 const VideoAdmin: React.FC = () => {
   const [videoUrl, setVideoUrl] = useState('');
@@ -10,12 +10,11 @@ const VideoAdmin: React.FC = () => {
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
-  // Load current video URL from Firestore
   useEffect(() => {
     const loadVideo = async () => {
       setLoading(true);
       try {
-        const docRef = doc(db, 'hero_video', VIDEO_DOC_ID);
+        const docRef = doc(db, 'news_and_video', VIDEO_DOC_ID);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setVideoUrl(docSnap.data().videoUrl || '');
@@ -37,7 +36,9 @@ const VideoAdmin: React.FC = () => {
     setSaving(true);
     setMessage(null);
     try {
-      await setDoc(doc(db, 'hero_video', VIDEO_DOC_ID), { videoUrl: videoUrl.trim() });
+      await setDoc(doc(db, 'news_and_video', VIDEO_DOC_ID), {
+        videoUrl: videoUrl.trim()
+      });
       setMessage('Video URL saved successfully!');
     } catch (err) {
       console.error('Failed to save video URL:', err);
@@ -51,7 +52,7 @@ const VideoAdmin: React.FC = () => {
     setSaving(true);
     setMessage(null);
     try {
-      await deleteDoc(doc(db, 'hero_video', VIDEO_DOC_ID));
+      await deleteDoc(doc(db, 'news_and_video', VIDEO_DOC_ID));
       setVideoUrl('');
       setMessage('Video URL deleted successfully!');
     } catch (err) {
@@ -61,9 +62,15 @@ const VideoAdmin: React.FC = () => {
     setSaving(false);
   };
 
+  // Helper: Convert normal YouTube URL to embed format
+  const convertToEmbedUrl = (url: string) => {
+    const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]+)/);
+    return match ? `https://www.youtube.com/embed/${match[1]}` : null;
+  };
+
   return (
-    <div className="container py-5">
-      <h2 className="mb-4 text-center">Manage Hero Video</h2>
+    <div className="container py-4">
+      <h2 className="mb-4 text-center">🎬 Manage Hero Video</h2>
 
       {message && (
         <div className={`alert ${message.includes('success') ? 'alert-success' : 'alert-danger'}`}>
@@ -72,32 +79,48 @@ const VideoAdmin: React.FC = () => {
       )}
 
       {loading ? (
-        <p>Loading current video URL...</p>
+        <p className="text-center">Loading current video URL...</p>
       ) : (
-        <div className="mb-3">
-          <label className="form-label">YouTube Video URL</label>
-          <input
-            type="url"
-            className="form-control mb-3"
-            placeholder="https://www.youtube.com/watch?v=abc123"
-            value={videoUrl}
-            onChange={(e) => setVideoUrl(e.target.value)}
-          />
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-10 col-12">
+            <label className="form-label fw-semibold">YouTube Video URL</label>
+            <input
+              type="url"
+              className="form-control mb-3"
+              placeholder="https://www.youtube.com/watch?v=abc123"
+              value={videoUrl}
+              onChange={(e) => setVideoUrl(e.target.value)}
+            />
 
-          <button
-            className="btn btn-primary me-2"
-            onClick={handleSave}
-            disabled={saving}
-          >
-            {saving ? 'Saving...' : 'Save Video URL'}
-          </button>
-          <button
-            className="btn btn-danger"
-            onClick={handleDelete}
-            disabled={saving || !videoUrl}
-          >
-            Delete Video URL
-          </button>
+            <div className="d-flex flex-wrap gap-2 mb-4">
+              <button
+                className="btn btn-primary flex-grow-1"
+                onClick={handleSave}
+                disabled={saving}
+              >
+                {saving ? 'Saving...' : 'Save Video URL'}
+              </button>
+              <button
+                className="btn btn-danger flex-grow-1"
+                onClick={handleDelete}
+                disabled={saving || !videoUrl}
+              >
+                Delete Video URL
+              </button>
+            </div>
+
+            {/* 🔍 Preview */}
+            {videoUrl && convertToEmbedUrl(videoUrl) && (
+              <div className="ratio ratio-16x9 rounded shadow-sm mb-3">
+                <iframe
+                  src={convertToEmbedUrl(videoUrl) || ''}
+                  title="YouTube Video Preview"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )}
+          </div>
         </div>
       )}
     </div>

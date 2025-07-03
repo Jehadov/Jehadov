@@ -257,6 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .category-scroll-arrow.arrow-left {
@@ -292,4 +293,54 @@
   right: -40px;
 }
 
+/* youtube */
 
+.responsive-iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* ✅ Adjust for larger screens */
+
+@media (min-width: 1200px) {
+  .responsive-iframe-container {
+    padding-bottom: 32%; /* Even smaller on desktops */
+  }
+}
+
+
+/* News */
+/* Scroll arrows (left/right buttons) */
+.category-scroll-arrow2 {
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: transparent;  /* No background */
+  border: none;              /* No border */
+  color: #333;               /* Arrow color */
+  font-size: 1.5rem;         /* Adjust size if needed */
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:40%;
+}
+
+.category-scroll-arrow2.arrow-left {
+  left: -18px; /* adjust as needed */
+}
+
+.category-scroll-arrow2.arrow-right {
+  right: -18px;
+}

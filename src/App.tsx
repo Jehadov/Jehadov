@@ -6,7 +6,7 @@ import './i18n';
 
 // Import Layouts
 import Layout from './Users/components/Layout';
-import AdminLayout from './Admin/Components/AdminLayout';
+// import AdminLayout from './Admin/Components/AdminLayout';
 
 // Import Context Providers
 import { CartProvider } from './Users/pages/CartContext'; 
@@ -16,25 +16,28 @@ import Home from './Users/pages/Home';
 import About from './Users/pages/About';
 import CustomerService from './Users/pages/CustomerService';
 import Careers from './Users/pages/Careers';
-import RequestItem from './Users/pages/RequestItem';
 import Cart from './Users/pages/Cart';
 import CheckoutStepper from './Users/pages/CheckoutStepper';
 import SearchResultsPage from './Users/components/SearchResultsPage'; // Assuming it's in pages
 
 // Import Admin Pages & Protected Route
-import AdminLogin from './Admin/pages/AdminLogin';
-//import AdminProtectedRoute from './Admin/Components/AdminProtectedRoute';
+// import AdminProtectedRoute from './Admin/Components/AdminProtectedRoute';
 import AdminDashboard from './Admin/pages/AdminDashboard';
 import ManageProducts from './Admin/pages/ManageProducts';
 import ManageCategory from './Admin/pages/ManageCategory';
 import ProductEditor from './Admin/pages/ProductEditor';
 import ManageAddOns from './Admin/pages/manageAddOns'; 
+import VideoAdmin from './Admin/pages/VideoAdmin';
+import NewsAdmin from './Admin/pages/NewsAdmin';
 
 // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import ManageOffers from './Admin/pages/ManageOffers';
+// import OfferForm from './Admin/pages/OfferForm';
+import ProductDetails from './Users/pages/ProductDetails';
+import AdminLayout from './Admin/Components/AdminLayout';
 import ManageOffers from './Admin/pages/ManageOffers';
 import OfferForm from './Admin/pages/OfferForm';
-import ProductDetails from './Users/pages/ProductDetails';
 // Import any global custom CSS if you have one, e.g., App.css or index.css
 
 const LoadingTranslationsFallback: React.FC = () => (
@@ -55,7 +58,6 @@ const App: React.FC = () => {
               <Route path="about" element={<About />} />
               <Route path="customer-service" element={<CustomerService />} />
               <Route path="careers" element={<Careers />} />
-              <Route path="request-item" element={<RequestItem />} />
               <Route path="product/:id" element={<ProductDetails />} />
               <Route path="cart" element={<Cart />} />
               <Route path="checkout" element={<CheckoutStepper />} />
@@ -64,7 +66,6 @@ const App: React.FC = () => {
             </Route>
 
             {/* Admin Login Route (this route is public) */}
-            <Route path="/admin/login" element={<AdminLogin />} />
 
             {/* Protected Admin Routes */}
             {/* <Route element={<AdminProtectedRoute />}> */}
@@ -78,9 +79,11 @@ const App: React.FC = () => {
                 <Route path="manage-addons" element={<ManageAddOns />} />
                 <Route path="manage-Offers" element={<ManageOffers />} />
                 <Route path="offer/new" element={<OfferForm />} />
-                <Route path="offer/edit/id" element={<OfferForm />} />
+                <Route path="offer/edit/id" element={<OfferForm />} /> 
+                <Route path="manage-video" element={<VideoAdmin />} />
+                <Route path="manage-news" element={<NewsAdmin />} />
                 {/* Routes for managing defined offers */}
-                {/* <Route path="*" element={<Navigate to="/admin/dashboard" replace />} /> */}
+                {/* <Route path="*" element={<Navigate to="/admin/dashboard" replace />} />*/}
               </Route>
             {/* </Route> */}
             

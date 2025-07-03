@@ -1,31 +1,18 @@
-// src/firebase.ts (or wherever your file is located)
+// ✅ firebase.ts or firebase.js
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
-// Import Firebase core and specific services
-import { initializeApp, type FirebaseApp } from "firebase/app"; // Added FirebaseApp type
-import { getFirestore, type Firestore } from "firebase/firestore"; // Added Firestore type
-import { getAuth, type Auth } from "firebase/auth"; // <-- CORRECTLY IMPORTED
-
-// import { getStorage, type FirebaseStorage } from "firebase/storage"; // Uncomment if you use Firebase Storage
-
-// Firebase configuration (Your existing config is good)
 const firebaseConfig = {
-  apiKey: "AIzaSyDf-Ivp5_lrvpouHOpsiHKUY91Lw-cxMLc",
-  authDomain: "jehadov-store.firebaseapp.com",
-  projectId: "jehadov-store",
-  storageBucket: "jehadov-store.appspot.com",
-  messagingSenderId: "737560144935",
-  appId: "1:737560144935:web:56ac20b3a25023c73cf202"
+  apiKey: "AIzaSyBFrkVhq6krL_rsyGHCXjMOtVkc8zbZ90k",
+  authDomain: "jehad-store.firebaseapp.com",
+  projectId: "jehad-store",
+  storageBucket: "jehad-store.appspot.com",
+  messagingSenderId: "1007118281137",
+  appId: "1:1007118281137:web:6da9865ffa6dd8bcbbf590",
+  measurementId: "G-36YMQXSJL1"
 };
 
-// Initialize Firebase
-const app: FirebaseApp = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
-// Initialize Firebase Services
-const db: Firestore = getFirestore(app);
-const auth: Auth = getAuth(app); // <-- CORRECTLY INITIALIZED
-// const storage: FirebaseStorage = getStorage(app); // Uncomment if you use Firebase Storage
-
-// Export the services you want to use in other parts of your app
-// Make sure 'auth' is included in your exports
-export { db, auth, /* storage, */ app }; // <-- CORRECTLY EXPORTED 'auth'
-// If you are not using storage yet, you can keep it commented out or remove it from exports.
+// ✅ Only one export
+export const db = getFirestore(app);

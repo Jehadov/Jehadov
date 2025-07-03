@@ -21,41 +21,36 @@ const Header: React.FC = () => {
   const showBackButton = location.pathname !== '/';
 
   return (
-    <header className="header">
+    <><header className="header">
       {/* Your existing primary header section */}
       <div className="header-container">
         <Link to="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-          <h2 className="logo mb-0">Jehadov_Store</h2> 
+          <h2 className="logo mb-0">Jehadov_Store</h2>
         </Link>
         <nav className="nav-links ms-md-auto">
-          <Link to="/">{t('navHome', 'Home')}</Link> |
-          <Link to="/about">{t('navAbout', 'About')}</Link> |
-          <Link to="/careers">{t('navCareers', 'Careers')}</Link> |
-          <Link to="/products/offers">{t('navOffers', 'Offers')}</Link>
+
         </nav>
       </div>
-
-      {/* === UPDATED UTILITY NAVIGATION BAR === */}
-      <nav className="navbar navbar-expand navbar-light bg-light py-2 border-top border-bottom">
-        <div className="container-fluid">
+    </header><div className="navbar navbar-expand navbar-light bg-light py-2 border-top border-bottom sticky-top">
+        <div className="container-fluid ">
           {/* Left Slot: Back Button */}
-        
-        {/* Back Button - Conditionally Rendered on the left */}
-        {showBackButton && (
-          <button
-            onClick={handleGoBack}
-            className="btn btn-link text-dark text-decoration-none p-0 me-3" // Simple link-style button
-            title={t('goBackTooltip', 'Go Back')} // Added translatable tooltip
-            style={{ color: 'inherit', fontSize: '1rem' }} 
-          >
-            <FaArrowLeft />
-            <span className="ms-1 d-none d-md-inline">{t('goBack', 'Back')}</span>
-          </button>
-        )}
+
+          {/* Back Button - Conditionally Rendered on the left */}
+          {showBackButton && (
+            <button
+              onClick={handleGoBack}
+              className="btn btn-link text-dark text-decoration-none p-0 me-3" // Simple link-style button
+              title={t('goBackTooltip', 'Go Back')} // Added translatable tooltip
+              style={{ color: 'inherit', fontSize: '1rem' }}
+            >
+              <FaArrowLeft />
+              <span className="ms-1 d-none d-md-inline">{t('goBack', 'Back')}</span>
+            </button>
+          )}
 
 
 
-                    {/* Language Switcher - Placed before the cart icon */}
+          {/* Language Switcher - Placed before the cart icon */}
           <div className="me-2"> {/* Added margin for spacing */}
             <LanguageSwitcher />
           </div>
@@ -67,8 +62,7 @@ const Header: React.FC = () => {
             <CartIcon />
           </div>
         </div>
-      </nav>
-    </header>
+      </div></>
   );
 };
 

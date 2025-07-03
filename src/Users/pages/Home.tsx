@@ -7,6 +7,7 @@ import { type Category, type Product } from '../../Users/pages/types';
 import ProductCard from './ProductCard';
 import { FaSpinner, FaSearch } from 'react-icons/fa';
 import CategoryLine from './CategoryLine';
+import VedioAndNews from './VideoAndNews';
 
 const HomePage: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -77,7 +78,7 @@ const HomePage: React.FC = () => {
 
   return (
     <main>
-      {/* <VedioAndNews /> */}
+      <VedioAndNews />
       {/* Category + Products */}
       <div className="container my-5">
         <h2 className="mb-4 text-center">{t('home.selectCategoryTitle', 'Select a Category')}</h2>
