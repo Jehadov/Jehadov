@@ -223,3 +223,73 @@
   font-weight: 600;
 }
 
+/* Wrapper to position arrows */
+.category-scroller-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Keep your existing .category-scroller-container as-is */
+.category-scroller-container {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth; /* Smooth scroll for arrow buttons */
+}
+
+.category-scroller-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Scroll arrows (left/right buttons) */
+.category-scroll-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: transparent;  /* No background */
+  border: none;              /* No border */
+  color: #333;               /* Arrow color */
+  font-size: 1.5rem;         /* Adjust size if needed */
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-scroll-arrow.arrow-left {
+  left: -30px; /* adjust as needed */
+}
+
+.category-scroll-arrow.arrow-right {
+  right: -30px;
+}
+
+/* vedio and news*/
+.news-scroll-container {
+  scroll-behavior: smooth;
+}
+
+.news-scroll-btn {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  z-index: 10;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.news-scroll-btn.left {
+  left: -40px;
+}
+
+.news-scroll-btn.right {
+  right: -40px;
+}
+
+
