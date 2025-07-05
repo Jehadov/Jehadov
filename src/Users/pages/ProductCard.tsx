@@ -171,7 +171,7 @@ export default function ProductCard({ product, searchQuery = "" }: { product: Pr
                 )}
                 <img 
                     src={displayedOption.imageUrl || product.image || "/placeholder-product.png"} 
-                    className="modern-card-img" 
+                    className="modern-card-img object-fit-cover" 
                     alt={productNameDisplay} 
                 />
             </div>
