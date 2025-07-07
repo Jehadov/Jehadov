@@ -413,6 +413,35 @@
       "deleteSuccessSingle": "Category deleted successfully!",
       "deleteFailureSingle": "Failed to delete category."
     }
+  },
+  "checkoutReview": {
+    "title": "Review Your Order",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "serviceDetails": "Service Details",
+    "paymentMethod": "Payment Method",
+    "customerInfo": "Customer Information",
+    "tableNumber": "Table Number",
+    "phone": "Phone",
+    "back": "Back",
+    "processing": "Processing...",
+    "placeOrder": "Place Order",
+    "methods": {
+      "delivery": "Delivery",
+      "pickup": "Pickup",
+      "inRestaurant": "In Restaurant",
+      "unknown": "Not specified"
+    },
+    "payment": {
+      "cliq": "CliQ Payment",
+      "cashOnDelivery": "Cash on Delivery",
+      "cashOnPickup": "Cash on Pickup",
+      "cashAtTable": "Cash at Table"
+    },
+    "errors": {
+      "submissionFailed": "Order submission failed",
+      "generic": "An error occurred while placing your order"
+    }
   }
 
 

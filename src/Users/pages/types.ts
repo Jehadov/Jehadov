@@ -9,11 +9,15 @@ export interface VariantOption {
   price: number;
   quantity: number;
   imageUrl: string;
-  value_en: string;         // English value (e.g., "Large", "Red", "500g")
-  value_ar: string;         // Arabic value (e.g., "كبير", "أحمر", "500 جرام")
-  unitLabel_en?: string;   // English unit label (e.g., "piece", "kg", "pack")
-  unitLabel_ar?: string;   // Arabic unit label (e.g., "قطعة", "كغم", "علبة")
-  originalPrice?: number;  // Optional: The price before an offer was applied
+  value_en: string;
+  value_ar: string;
+  unitLabel_en?: string;
+  unitLabel_ar?: string;
+  originalPrice?: number;
+  offerType?: VariantOfferType;
+  offerValue?: number;
+  offerStartDate?: Timestamp | null;
+  offerEndDate?: Timestamp | null;
 }
 
 export interface Variant { // Represents a variant group like "Size" or "Color"
@@ -129,13 +133,32 @@ export interface AddressData {
   city: string;
   country: string;
 }
-
-export type PaymentMethod = 'card' | 'efawateercom' | 'cash';
+export type PaymentMethod = 'cash' | 'cliq';
 export interface PaymentData {
-  method: PaymentMethod;
+  method: 'cliq' | 'cash';
+}
+// In your types.ts or wherever ServiceMethod is defined:
+export type ServiceMethod = 'delivery' | 'pickup' | 'inRestaurant'; // Added 'inRestaurant'
+export interface ConfirmedOrderData {
+  orderId: string;
+  totalAmount?: number;
+  payment: PaymentData;
+  shipping: AddressData;
+  serviceMethod?: ServiceMethod;
+  tableNumber?: string;
+  paymentDetails?: any;
 }
 
-export type ServiceMethod = 'delivery' | 'pickup' | 'dineIn';
+export interface DeliveryMeta {
+  name: string;
+  phoneNumber: string;
+  location: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+}
+
 export interface OrderData {
   shipping: AddressData; 
   payment: PaymentData;
@@ -148,6 +171,7 @@ export interface OrderData {
   orderStatus?: string;       
   createdAt?: Timestamp | FieldValue;            
   languageAtTimeOfOrder?: string; 
+  deliveryMeta?: DeliveryMeta;
   paymentDetails?: {          
     billNumber?: string;
     transactionId?: string;   
@@ -228,6 +252,9 @@ export const defaultOffer: Omit<Offer, 'id' | 'createdAt' | 'updatedAt'> = {
   couponCode: '',
   discountNature: 'fixed',
 };
+export interface ConfirmedOrderData extends OrderData {}
+
+
 
 
 export type VariantOfferType = 'none' | 'percentage' | 'fixed';

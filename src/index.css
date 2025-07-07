@@ -71,3 +71,5 @@ mark {
   padding: 0.1em;
   border-radius: 3px;
 }
+
+@import "leaflet/dist/leaflet.css";
