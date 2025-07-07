@@ -12,7 +12,7 @@ export default function CheckoutComplete({ confirmedOrderData, onReset }: Checko
   if (!confirmedOrderData) {
     return (
       <div className="alert alert-warning" role="alert">
-        {t('checkout.complete.noOrder', 'No order data available.')}
+        {t('checkout.complete.noOrder')}
       </div>
     );
   }
@@ -23,50 +23,49 @@ export default function CheckoutComplete({ confirmedOrderData, onReset }: Checko
     <div className="container my-5 text-center">
       <div className="card shadow-sm p-4">
         <h2 className="mb-4 text-success">
-          {t('checkout.complete.thankYou', 'Thank you for your order!')}
+          {t('checkout.complete.thankYou')}
         </h2>
         
         <div className="order-details text-start mb-4">
           <p>
-            {t('checkout.complete.orderId', 'Order ID')}: 
-            <strong> {orderId ?? t('checkout.complete.noOrderId', 'N/A')}</strong>
+            {t('checkout.complete.orderId')}: 
+            <strong> {orderId ?? t('checkout.complete.noOrderId')}</strong>
           </p>
           
           {totalAmount && (
             <p>
-              {t('checkout.complete.totalPaid', 'Total Paid')}: 
-              <strong> {totalAmount.toFixed(2)} JD</strong>
+              {t('checkout.complete.totalPaid')}: 
+              <strong> {totalAmount.toFixed(2)} {t('currency.jd')}</strong>
             </p>
           )}
           
           <p>
-            {t('checkout.complete.paymentMethod', 'Payment Method')}: 
-            <strong> {t(`checkout.paymentMethods.${payment.method}`, payment.method)}</strong>
+            {t('checkout.complete.paymentMethod')}: 
+            <strong> {t(`checkout.paymentMethods.${payment.method}`)}</strong>
           </p>
           
           <p>
-            {t('checkout.complete.serviceMethod', 'Service Method')}: 
-            <strong> {t(`checkout.serviceMethods.${serviceMethod}`, serviceMethod ?? '')}</strong>
+            {t('checkout.complete.serviceMethod')}: 
+            <strong> {t(`checkout.serviceMethods.${serviceMethod}`)}</strong>
           </p>
           
-          {serviceMethod === 'dineIn' && tableNumber && (
+          {serviceMethod === 'inRestaurant' && tableNumber && (
             <p>
-              {t('checkout.complete.tableNumber', 'Table Number')}: 
+              {t('checkout.complete.tableNumber')}: 
               <strong> {tableNumber}</strong>
             </p>
           )}
         </div>
         
         <p className="mb-4">
-          {t('checkout.complete.confirmationMessage', 
-             'Your order is being processed and you will receive updates shortly.')}
+          {t('checkout.complete.confirmationMessage')}
         </p>
         
         <button 
           onClick={onReset} 
           className="btn btn-primary"
         >
-          {t('checkout.complete.newOrder', 'Place New Order')}
+          {t('checkout.complete.newOrder')}
         </button>
       </div>
     </div>
