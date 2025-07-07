@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import type { ConfirmedOrderData } from './types';
+import type { ConfirmedOrderData } from '../types';
 
 interface CheckoutCompleteProps {
   confirmedOrderData: ConfirmedOrderData | null;

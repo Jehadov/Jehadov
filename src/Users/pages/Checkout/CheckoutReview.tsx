@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useCart } from './CartContext';
+import { useCart } from '../CartContext';
 import { useTranslation } from 'react-i18next';
-import type { OrderData, ServiceMethod, CartItem } from './types';
+import type { OrderData, ServiceMethod, CartItem } from '../types';
 
 interface CheckoutReviewProps {
   orderData: OrderData;

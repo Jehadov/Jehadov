@@ -1,4 +1,4 @@
-import { useCart } from './CartContext';
+import { useCart } from '../CartContext';
 import { useTranslation } from 'react-i18next';
 
 export default function CheckoutCartSummary() {

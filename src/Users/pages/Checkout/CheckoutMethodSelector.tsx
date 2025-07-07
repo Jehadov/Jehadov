@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import type { ServiceMethod } from './types';
+import type { ServiceMethod } from '../types';
 
 interface CheckoutMethodSelectorProps {
   onSelect: (method: ServiceMethod) => void;

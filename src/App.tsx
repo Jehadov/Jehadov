@@ -17,7 +17,7 @@ import About from './Users/pages/About';
 import CustomerService from './Users/pages/CustomerService';
 import Careers from './Users/pages/Careers';
 import Cart from './Users/pages/Cart';
-import CheckoutStepper from './Users/pages/CheckoutStepper';
+import CheckoutStepper from './Users/pages/Checkout/CheckoutStepper';
 import SearchResultsPage from './Users/components/SearchResultsPage'; // Assuming it's in pages
 
 // Import Admin Pages & Protected Route

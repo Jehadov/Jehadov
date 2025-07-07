@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import type { PaymentData } from './types'; // Adjust path as needed
+import type { PaymentData } from '../types'; // Adjust path as needed
 
 interface CheckoutPaymentProps {
   initialData: PaymentData;

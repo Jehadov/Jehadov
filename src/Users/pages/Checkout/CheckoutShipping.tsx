@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; // Ensured React is imported for FC
 import { useTranslation } from 'react-i18next'; // Import useTranslation
-import i18n from '../../i18n';
+import i18n from '../../../i18n';
 
 // Define a strict type for our shipping data.
 interface AddressData {

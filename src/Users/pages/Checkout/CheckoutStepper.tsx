@@ -11,7 +11,7 @@ import type {
   ServiceMethod,
   ConfirmedOrderData,
   DeliveryMeta
-} from './types';
+} from '../types';
 
 type Step = 0 | 1 | 2 | 3 | 4;
 
