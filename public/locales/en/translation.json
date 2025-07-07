@@ -260,42 +260,6 @@
     "viewDetails": "View Details"
   },
   "loadingText": "Loading...",
-  "productDetails": {
-    "notFound": "Product Not Found.",
-    "variantIssue": "Product variant details are currently unavailable. Please check product data.",
-    "lowStock": "Low Stock: Only {{count}} left!",
-    "outOfStock": "Out of Stock",
-    "selectOption": "Select Option:",
-    "optionOutOfStock": "(Out)",
-    "optionalExtras": "Optional Extras:",
-    "quantityLabel": "Quantity",
-    "buttons": {
-      "itemUpdated": "Item Updated!",
-      "updateItemInCart": "Update Item",
-      "addedToCart": "Added!",
-      "addToCart": "Add to Cart"
-    },
-    "optionOutOfStockFull": "This option is currently out of stock.",
-    "tabs": {
-      "description": "Description",
-      "details": "Details",
-      "reviews": "Reviews"
-    },
-    "noDescription": "No detailed description available.",
-    "details": {
-      "category": "Category:",
-      "manufacturedAt": "Manufactured At:",
-      "expiresOn": "Expires On:",
-      "selectedOption": "Selected Option:"
-    },
-    "noReviews": "No reviews yet for this product.",
-    "alerts": {
-      "selectOption": "Please select a valid product option.",
-      "outOfStock": "This option is out of stock.", 
-      "quantityMinOne": "Quantity must be at least 1.",
-      "notEnoughStock": "Only {{count}} available for this option."
-    }
-  },
   "searchResults": {
     "title": "Search Results",
     "for": "for \"{{query}}\"",
@@ -442,7 +406,56 @@
       "submissionFailed": "Order submission failed",
       "generic": "An error occurred while placing your order"
     }
+  },
+  "productDetails": {
+    "notFound": "Product not found",
+    "variantIssueCritical": "This product has configuration issues",
+    "selectOption": "Select option",
+    "optionalExtras": "Optional extras",
+    "total": "Total",
+    "noDescription": "No description available",
+    "noReviews": "No reviews yet",
+    "outOfStock": "Out of stock",
+    "optionOutOfStock": "(Out of stock)",
+    "details": {
+      "manufacturedAt": "Manufactured on",
+      "expiresOn": "Expires on"
+    },
+    "tabs": {
+      "description": "Description",
+      "details": "Details",
+      "reviews": "Reviews"
+    },
+    "buttons": {
+      "addToCart": "Add to Cart",
+      "addedToCart": "Added to Cart!",
+      "updateItemInCart": "Update Cart Item",
+      "itemUpdated": "Item Updated!"
+    },
+    "alerts": {
+      "selectOption": "Please select an option first",
+      "outOfStock": "This item is currently out of stock",
+      "notEnoughStock": "Only {count} available in stock"
+    }
+  },
+    "variant": {
+    "selectLabel": "Select your option",
+    "unitLabel": {
+      "piece": "piece",
+      "kg": "kg",
+      "g": "g",
+      "ml": "ml",
+      "l": "liter"
+    }
+  },
+  "addOn": {
+    "selectLabel": "Add extras"
+  },
+    "buttonStates": {
+    "adding": "Adding...",
+    "updating": "Updating..."
   }
+
 
 
 }
