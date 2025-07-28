@@ -1,0 +1,41 @@
+# .gitlab-ci.yml
+image: node:20
+
+stages:
+  - install
+  - lint
+  - build
+
+variables:
+  CI: "true"
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+install:
+  stage: install
+  script:
+    - npm ci
+
+lint:
+  stage: lint
+  script:
+    - npm run lint
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+
+deploy:
+  stage: deploy
+  script:
+    - npm install -g firebase-tools
+    - firebase deploy --token "$FIREBASE_TOKEN"
+  only:
+    - main
