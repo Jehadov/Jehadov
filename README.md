@@ -17,9 +17,9 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 
 ## 🛠️ Technical Skills
 
-**Frontend:** HTML, CSS, Bootstrap, TypeScript, JavaScript, Angular, Vue.js  
+**Frontend:** HTML, CSS, Bootstrap, TypeScript, JavaScript, Angular, Vue.js, React  
 **Backend:** ASP.NET Core, ASP.NET MVC, Flask, SQL, API Development  
-**Programming:** C, C++, C#, Python, Java  
+**Programming:** C, C++, C#, Python, Golang  
 **Cloud & AI:** AWS, Cloud Services, AI/ML basics  
 **IoT & Hardware:** Arduino, Sensors, VHDL  
 **Tools & Others:** GitHub, Linux, Ubuntu, OOP, Data Structures  
@@ -28,11 +28,15 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 
 ## 💡 Projects
 
-### **Drone Tracking System**
+### **Drone Tracking System** (August 2024)
 - Full-stack web application for real-time drone tracking and path visualization.  
 - Built with **React, Mapbox, and backend API integration**.  
 - Features include **drone paths, pilot info, altitude, and organizational management**.
 
+### **Multi-Restaurant Web App** (June 2024 - Ongoing)
+- Firebase-based system with **admin, cashier, and customer interfaces**.
+- Supports ordering without login and handles ~400 customers/day per restaurant.
+  
 ### **Bank System** (May 2024 – June 2024)
 - Full-stack web app using Angular, API, SQL, and TypeScript.
 - Focused on secure, reliable, and user-friendly financial services.
@@ -44,9 +48,6 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 ### **Jehadov Store, Portfolio & Quiz** (Jan 2024 – Mar 2024)
 - Online store, personal portfolio, and quiz platform using HTML, CSS, JS, and Bootstrap.
 
-### **Multi-Restaurant Web App**
-- Firebase-based system with **admin, cashier, and customer interfaces**.
-- Supports ordering without login and handles ~400 customers/day per restaurant.
 
 ---
 
