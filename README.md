@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 
 ## 🔭 About Me
 - 💻 Currently **freelancing** as a Full Stack Web Developer.  
-- 🌐 Experienced in **Angular, ASP.NET Core, Vue.js, C++, C#, Python, React**, and modern web technologies.  
+- 🌐 Experienced in **Angular, ASP.NET Core, Vue.js, C, C++, C#, Golang, Python, React**, and modern web technologies.  
 - ☁️ Interested in **Cloud computing, AI, and AWS services**.  
 - 🤖 Occasionally explore **IoT projects**.  
 - ⚡ Enthusiastic about **frontend frameworks, full-stack development, and problem-solving**.  
