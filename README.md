@@ -61,8 +61,5 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 ---
 
 ## ⚡ Fun Fact
-I enjoy **splitting complex web components** for better structure, optimizing **user experience**, exploring **new frontend frameworks like Vue.js**, and occasionally **IoT experiments**.
+I enjoy **turning projects into real-world applications through different technologies** using **full-stack programming**, experimenting with **IoT projects**, and growing my knowledge with **Cloud & AI practitioner on AWS**.
 
----
-
-![Jehadov's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jehadov&show_icons=true&theme=radical)
