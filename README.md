@@ -6,12 +6,12 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 
 ## 🔭 About Me
 - 💻 Currently **freelancing** as a Full Stack Web Developer.  
-- 🌐 Experienced in **Angular, ASP.NET Core, Vue.js, C++, C#, Python**, and modern web technologies.  
+- 🌐 Experienced in **Angular, ASP.NET Core, Vue.js, C++, C#, Python, React**, and modern web technologies.  
 - ☁️ Interested in **Cloud computing, AI, and AWS services**.  
 - 🤖 Occasionally explore **IoT projects**.  
 - ⚡ Enthusiastic about **frontend frameworks, full-stack development, and problem-solving**.  
 - 🎓 Graduate of **Yarmouk University (B.E. in Computer Engineering)**, Sept 2024.  
-- 🏗️ Building my own **multi-restaurant web application** and **small market store project**.  
+- 🏗️ Building my own **multi-restaurant web application**, and **My Portfolio**.  
 
 ---
 
