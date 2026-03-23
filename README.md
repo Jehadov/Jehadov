@@ -11,7 +11,6 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 - 🤖 Occasionally explore **IoT projects**.  
 - ⚡ Enthusiastic about **frontend frameworks, full-stack development, and problem-solving**.  
 - 🎓 Graduate of **Yarmouk University (B.E. in Computer Engineering)**, Sept 2024.  
-- 🏗️ Building my own **multi-restaurant web application**, and **My Portfolio**.  
 
 ---
 
@@ -20,7 +19,7 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 **Frontend:** HTML, CSS, Bootstrap, TypeScript, JavaScript, Angular, Vue.js, React, React Native, Svelte  
 **Backend & APIs:** ASP.NET Core, ASP.NET MVC, Flask, FastAPI, SQL  
 **Programming:** C, C++, C#, Python, Golang  
-**AI & Machine Learning:** ML, Deep Learning, LLM, RAG, Vector Databases, OCR (PaddleOCR, Tesseract), OpenCV  
+**AI & Machine Learning:** ML, Deep Learning, LLM, RAG, Vector Databases, OCR 
 **Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, Firebase, Appwrite, CI/CD, GitHub Actions  
 **IoT & Hardware:** Arduino, Sensors, VHDL  
 **Tools & Databases:** SQL Server, MySQL, PostgreSQL, Firestore, GitHub, Linux, OOP, Data Structures  
@@ -29,12 +28,12 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 
 ## 💡 Projects
 
-### **Drone Tracking System** (August 2024)
+### **Drone Tracking System** (August 2025)
 - Full-stack web application for real-time drone tracking and path visualization.  
 - Built with **React, Mapbox, and backend API integration**.  
 - Features include **drone paths, pilot info, altitude, and organizational management**.
 
-### **Multi-Restaurant Web App** (June 2024 - Ongoing)
+### **Multi-Restaurant Web App** (June 2025 - July 2025)
 - Firebase-based system with **admin, cashier, and customer interfaces**.
 - Supports ordering without login and handles ~400 customers/day per restaurant.
   
@@ -43,7 +42,7 @@ Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Clo
 - Focused on secure, reliable, and user-friendly financial services.
 
 ### **Hospital System** (April 2024)
-- Built with MVC.NET, Flask, SQL, Razor View.
+- Built with MVC.NET, Flask, SQL, and Razor View.
 - Managed patient records, appointments, staff, and inventory efficiently.
 
 ### **Jehadov Store, Portfolio & Quiz** (Jan 2024 – Mar 2024)
