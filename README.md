@@ -1,65 +1,59 @@
-# Hi there 👋, I'm Jehad Taha (Jehadov)
+# Hi there 👋, I'm Jehad Taha (@Jehadov)
 
-Welcome to my GitHub profile! I'm a **Computer Engineering graduate** and  **Cloud Computing with Full Stack development, programming, and sometimes Internet of Things (IoT)**.  
+Welcome to my GitHub profile! [cite_start]I'm an **AI-Focused Software Engineer** and a **Computer Engineering graduate** passionate about Cloud Computing, Machine Learning, and Full-Stack Development[cite: 433].
 
 ---
 
 ## 🔭 About Me
-- 💻 Currently **freelancing** as a Full Stack Web Developer.  
-- 🌐 Experienced in **Angular, ASP.NET Core, Vue.js, C, C++, C#, Golang, Python, React**, and modern web technologies.  
-- ☁️ Interested in **Cloud computing, AI, and AWS services**.  
-- 🤖 Occasionally explore **IoT projects**.  
-- ⚡ Enthusiastic about **frontend frameworks, full-stack development, and problem-solving**.  
-- 🎓 Graduate of **Yarmouk University (B.E. in Computer Engineering)**, Sept 2024.  
-- 🏗️ Building my own **multi-restaurant web application**, and **My Portfolio**.  
+- [cite_start]💻 Currently working as a **Freelance AI Programmer & Full Stack Developer**[cite: 438].
+- [cite_start]🤖 Focused on building intelligent systems using **Local LLMs, RAG, Vector Databases, and OCR (PaddleOCR/Tesseract)**[cite: 478, 490].
+- [cite_start]☁️ Actively working with **AWS (EC2, S3, Lambda), Docker, and FastAPI** to build and deploy scalable, offline-capable services[cite: 478, 491].
+- [cite_start]🌐 Experienced in modern frameworks including **React, ASP.NET Core, Angular, and Vue.js**[cite: 491].
+- [cite_start]🎓 Graduated from **Yarmouk University (B.E. in Computer Engineering)** in July 2024.
+- [cite_start]🏗️ Building enterprise-level applications, including an **Offline-Capable AI API** and an **Enterprise School Management System**[cite: 477].
 
 ---
 
 ## 🛠️ Technical Skills
 
-**Frontend:** HTML, CSS, Bootstrap, TypeScript, JavaScript, Angular, Vue.js, React  
-**Backend:** ASP.NET Core, ASP.NET MVC, Flask, SQL, API Development  
-**Programming:** C, C++, C#, Python, Golang  
-**Cloud & AI:** AWS, Cloud Services, AI/ML basics  
-**IoT & Hardware:** Arduino, Sensors, VHDL  
-**Tools & Others:** GitHub, Linux, Ubuntu, OOP, Data Structures  
+[cite_start]**Programming:** C, C++, C#, Python, TypeScript, JavaScript, SQL, HTML, CSS [cite: 489]  
+[cite_start]**AI & Machine Learning:** ML, Deep Learning, ANN, CNN, RNN, LLM, RAG, OCR [cite: 490]  
+[cite_start]**Frameworks & Libraries:** ASP.NET Core, React, Angular, Vue.js, React Native, FastAPI, Open WebUI, PaddleOCR, Tesseract [cite: 491]  
+[cite_start]**Cloud & DevOps:** AWS (EC2, S3, Lambda), Firebase, Docker, GitHub Actions, Git, CI/CD, Appwrite [cite: 491]  
+[cite_start]**Databases:** SQL Server, Firebase Firestore, MySQL, PostgreSQL, Vector Databases [cite: 492]  
 
 ---
 
-## 💡 Projects
+## 💡 Featured Projects
 
-### **Drone Tracking System** (August 2024)
-- Full-stack web application for real-time drone tracking and path visualization.  
-- Built with **React, Mapbox, and backend API integration**.  
-- Features include **drone paths, pilot info, altitude, and organizational management**.
+### **OpenWebUI Enterprise Extension**
+- [cite_start]Engineered an Offline License Enforcement mechanism for air-gapped environments[cite: 475].
+- [cite_start]Implemented an Auditable Activity Trail to track sensitive administrative actions and permission changes[cite: 476].
+- [cite_start]**Tech:** Svelte, Python, SQLite, Security Architecture[cite: 473].
 
-### **Multi-Restaurant Web App** (June 2024 - Ongoing)
-- Firebase-based system with **admin, cashier, and customer interfaces**.
-- Supports ordering without login and handles ~400 customers/day per restaurant.
-  
-### **Bank System** (May 2024 – June 2024)
-- Full-stack web app using Angular, API, SQL, and TypeScript.
-- Focused on secure, reliable, and user-friendly financial services.
+### **Offline-Capable AI Service API**
+- [cite_start]Developed a containerized FastAPI service providing offline OCR and LLM inference capabilities using locally hosted models[cite: 481].
+- [cite_start]Packaged the system into a portable Windows executable for one-click deployment in restricted environments[cite: 482].
+- [cite_start]**Tech:** FastAPI, Docker, PaddleOCR, Local LLM, Python[cite: 478].
 
-### **Hospital System** (April 2024)
-- Built with MVC.NET, Flask, SQL, Razor View.
-- Managed patient records, appointments, staff, and inventory efficiently.
+### **Enterprise School Management System**
+- Developing a comprehensive SaaS platform featuring specialized dashboards for students, teachers, and administration.
+- Engineering an automated data entry module using PaddleOCR and Tesseract to digitize physical records.
 
-### **Jehadov Store, Portfolio & Quiz** (Jan 2024 – Mar 2024)
-- Online store, personal portfolio, and quiz platform using HTML, CSS, JS, and Bootstrap.
-
+### **Multi-Store Platform**
+- [cite_start]Built a cross-platform e-commerce solution supporting multiple storefronts with a shared backend[cite: 485].
+- [cite_start]Secured user data and synchronized inventory in real-time using Firebase Firestore and Auth[cite: 486].
+- [cite_start]**Tech:** React Native, TypeScript, Firebase, Appwrite[cite: 484].
 
 ---
 
 ## 📫 Contact Me
-- 📧 Email: [Jehad.Taha@outlook.com](mailto:Jehad.Taha@outlook.com)  
-- 📱 Jordan: (+962) 790730270  
-- 📱 Kuwait: (+962) 56579370  
-- 🔗 LinkedIn: [linkedin.com/in/jehad-taha-2543562b2](https://www.linkedin.com/in/jehad-taha-2543562b2)  
-- 🐙 GitHub: [github.com/Jehadov](https://github.com/Jehadov)  
+- [cite_start]📧 Email: [Jehad.Taha@outlook.com](mailto:Jehad.Taha@outlook.com) [cite: 430] 
+- [cite_start]📱 Jordan: (+962) 790730270 [cite: 428]
+- [cite_start]📱 Kuwait: (+962) 56579370 *(Note: Double-check if this should be +965 for Kuwait!)* - 🔗 LinkedIn: [linkedin.com/in/jehad-taha](https://www.linkedin.com/in/jehad-taha-2543562b2) [cite: 434]
+- [cite_start]🐙 GitHub: [github.com/Jehadov](https://github.com/Jehadov) [cite: 434]
 
 ---
 
 ## ⚡ Fun Fact
-I enjoy **turning projects into real-world applications through different technologies** using **full-stack programming**, experimenting with **IoT projects**, and growing my knowledge with **Cloud & AI practitioner on AWS**.
-
+I enjoy turning complex challenges into robust real-world applications—whether that means architecting a serverless cloud backend, fine-tuning an AI vision model to read documents, or deploying a containerized API to an air-gapped environment!
